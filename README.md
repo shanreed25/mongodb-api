@@ -21,3 +21,12 @@
     - [X] Create a single GET route at `/` that, upon a successful database connection, sends back a JSON response: { message: "Successfully connected to the database!" }. If the connection fails, it should send a 500 status code with a message: { message: "Failed to connect to the database." }.
     - [X] Start the server.
 
+## Reflection Questions
+#### Why is it important to whitelist IP addresses in a real-world production environment? What are the risks of allowing connections from anywhere (0.0.0.0/0)?
+> Whitelisting IP addresses means only approved servers can connect to the database. If someone get a hold of your username and password but their IP address is not whitelisted thaey still will not be able to access it. With `0.0.0.0/0` anyone can connect from anywhere as long as they have the username and password. So whitelisting give your database a second layer of security.
+
+
+#### What is the purpose of the dotenv package? What other methods could you use to manage environment variables in a production environment (e.g., in a cloud hosting service)?
+
+
+#### If your application failed to connect, what are the first few steps you would take to debug the issue?
