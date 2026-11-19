@@ -31,3 +31,4 @@
 
 
 #### If your application failed to connect, what are the first few steps you would take to debug the issue?
+> If the application failed the server log the error message, so I would read that message, check that my connection string is correct and if the environment varibale for the connection string is being used.
