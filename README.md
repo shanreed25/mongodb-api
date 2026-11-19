@@ -27,6 +27,7 @@
 
 
 #### What is the purpose of the dotenv package? What other methods could you use to manage environment variables in a production environment (e.g., in a cloud hosting service)?
+> The purpose of the `dotenv` package is so you can use a `.env` file to load environment variables, so these variables are not hardcoded into the code and not added to GitHub. In production when using a cloud hosting service, these services usually allow you to set environment variables when setting up the project in your dashboard, so you do not need a `.env` file. 
 
 
 #### If your application failed to connect, what are the first few steps you would take to debug the issue?
