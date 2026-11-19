@@ -11,8 +11,8 @@
 - [X] Create a `.env` file and add your MongoDB Atlas connection string to it. Be sure to replace `<password>` with the actual password you created.
 
 ### Build the Express Application
-- [ ] Create a file named server.js.
-- [ ] In server.js, build a simple Express application that connects to your MongoDB database. The server should:
+- [ ] Create a file named `server.js`.
+- [ ] In `server.js`, build a simple Express application that connects to your MongoDB database. The server should:
 - [ ] Require express, mongodb, and dotenv.
 - [ ] Load environment variables from the .env file.
 - [ ] Create an Express app instance.
